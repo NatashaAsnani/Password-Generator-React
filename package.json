@@ -3,8 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://natashaasnani.github.io/Password-Generator-React/",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
